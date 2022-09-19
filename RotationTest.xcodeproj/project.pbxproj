@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAC8A4349D2BFF67111067B /* Pods_RotationTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0847AAB13893ADB0D9C7822D /* Pods_RotationTest.framework */; };
+		4880427228D876BE00891639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880427128D876BE00891639 /* AppDelegate.m */; };
+		4880427528D876BE00891639 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880427428D876BE00891639 /* SceneDelegate.m */; };
+		4880427828D876BE00891639 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880427728D876BE00891639 /* ViewController.m */; };
+		4880427B28D876BE00891639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4880427928D876BE00891639 /* Main.storyboard */; };
+		4880427D28D876C000891639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4880427C28D876C000891639 /* Assets.xcassets */; };
+		4880428028D876C000891639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4880427E28D876C000891639 /* LaunchScreen.storyboard */; };
+		4880428328D876C000891639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880428228D876C000891639 /* main.m */; };
+		4880428D28D876C000891639 /* RotationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880428C28D876C000891639 /* RotationTestTests.m */; };
+		4880429728D876C000891639 /* RotationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880429628D876C000891639 /* RotationTestUITests.m */; };
+		4880429928D876C000891639 /* RotationTestUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4880429828D876C000891639 /* RotationTestUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4880428928D876C000891639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4880426528D876BE00891639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4880426C28D876BE00891639;
+			remoteInfo = RotationTest;
+		};
+		4880429328D876C000891639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4880426528D876BE00891639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4880426C28D876BE00891639;
+			remoteInfo = RotationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0847AAB13893ADB0D9C7822D /* Pods_RotationTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotationTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F36339EB2EC25783D643F88 /* Pods-RotationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotationTest.debug.xcconfig"; path = "Target Support Files/Pods-RotationTest/Pods-RotationTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4880426D28D876BE00891639 /* RotationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4880427028D876BE00891639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4880427128D876BE00891639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4880427328D876BE00891639 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4880427428D876BE00891639 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4880427628D876BE00891639 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4880427728D876BE00891639 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4880427A28D876BE00891639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4880427C28D876C000891639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4880427F28D876C000891639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4880428128D876C000891639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4880428228D876C000891639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4880428828D876C000891639 /* RotationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4880428C28D876C000891639 /* RotationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationTestTests.m; sourceTree = "<group>"; };
+		4880429228D876C000891639 /* RotationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4880429628D876C000891639 /* RotationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationTestUITests.m; sourceTree = "<group>"; };
+		4880429828D876C000891639 /* RotationTestUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationTestUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CFFE515CE2C08008EE02E290 /* Pods-RotationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotationTest.release.xcconfig"; path = "Target Support Files/Pods-RotationTest/Pods-RotationTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4880426A28D876BE00891639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAC8A4349D2BFF67111067B /* Pods_RotationTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4880428528D876C000891639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4880428F28D876C000891639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA72A6E29B2BE98BC5DA05C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0847AAB13893ADB0D9C7822D /* Pods_RotationTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4880426428D876BE00891639 = {
+			isa = PBXGroup;
+			children = (
+				4880426F28D876BE00891639 /* RotationTest */,
+				4880428B28D876C000891639 /* RotationTestTests */,
+				4880429528D876C000891639 /* RotationTestUITests */,
+				4880426E28D876BE00891639 /* Products */,
+				684D469310D95BDD7798CD82 /* Pods */,
+				0EA72A6E29B2BE98BC5DA05C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4880426E28D876BE00891639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4880426D28D876BE00891639 /* RotationTest.app */,
+				4880428828D876C000891639 /* RotationTestTests.xctest */,
+				4880429228D876C000891639 /* RotationTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4880426F28D876BE00891639 /* RotationTest */ = {
+			isa = PBXGroup;
+			children = (
+				4880427028D876BE00891639 /* AppDelegate.h */,
+				4880427128D876BE00891639 /* AppDelegate.m */,
+				4880427328D876BE00891639 /* SceneDelegate.h */,
+				4880427428D876BE00891639 /* SceneDelegate.m */,
+				4880427628D876BE00891639 /* ViewController.h */,
+				4880427728D876BE00891639 /* ViewController.m */,
+				4880427928D876BE00891639 /* Main.storyboard */,
+				4880427C28D876C000891639 /* Assets.xcassets */,
+				4880427E28D876C000891639 /* LaunchScreen.storyboard */,
+				4880428128D876C000891639 /* Info.plist */,
+				4880428228D876C000891639 /* main.m */,
+			);
+			path = RotationTest;
+			sourceTree = "<group>";
+		};
+		4880428B28D876C000891639 /* RotationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4880428C28D876C000891639 /* RotationTestTests.m */,
+			);
+			path = RotationTestTests;
+			sourceTree = "<group>";
+		};
+		4880429528D876C000891639 /* RotationTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4880429628D876C000891639 /* RotationTestUITests.m */,
+				4880429828D876C000891639 /* RotationTestUITestsLaunchTests.m */,
+			);
+			path = RotationTestUITests;
+			sourceTree = "<group>";
+		};
+		684D469310D95BDD7798CD82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F36339EB2EC25783D643F88 /* Pods-RotationTest.debug.xcconfig */,
+				CFFE515CE2C08008EE02E290 /* Pods-RotationTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4880426C28D876BE00891639 /* RotationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4880429C28D876C000891639 /* Build configuration list for PBXNativeTarget "RotationTest" */;
+			buildPhases = (
+				C90D0D280ABF2BF0EDD1E0F2 /* [CP] Check Pods Manifest.lock */,
+				4880426928D876BE00891639 /* Sources */,
+				4880426A28D876BE00891639 /* Frameworks */,
+				4880426B28D876BE00891639 /* Resources */,
+				7588B6EC0B500B11790F5EAE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotationTest;
+			productName = RotationTest;
+			productReference = 4880426D28D876BE00891639 /* RotationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4880428728D876C000891639 /* RotationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4880429F28D876C000891639 /* Build configuration list for PBXNativeTarget "RotationTestTests" */;
+			buildPhases = (
+				4880428428D876C000891639 /* Sources */,
+				4880428528D876C000891639 /* Frameworks */,
+				4880428628D876C000891639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4880428A28D876C000891639 /* PBXTargetDependency */,
+			);
+			name = RotationTestTests;
+			productName = RotationTestTests;
+			productReference = 4880428828D876C000891639 /* RotationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4880429128D876C000891639 /* RotationTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488042A228D876C000891639 /* Build configuration list for PBXNativeTarget "RotationTestUITests" */;
+			buildPhases = (
+				4880428E28D876C000891639 /* Sources */,
+				4880428F28D876C000891639 /* Frameworks */,
+				4880429028D876C000891639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4880429428D876C000891639 /* PBXTargetDependency */,
+			);
+			name = RotationTestUITests;
+			productName = RotationTestUITests;
+			productReference = 4880429228D876C000891639 /* RotationTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4880426528D876BE00891639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4880426C28D876BE00891639 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4880428728D876C000891639 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4880426C28D876BE00891639;
+					};
+					4880429128D876C000891639 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4880426C28D876BE00891639;
+					};
+				};
+			};
+			buildConfigurationList = 4880426828D876BE00891639 /* Build configuration list for PBXProject "RotationTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4880426428D876BE00891639;
+			productRefGroup = 4880426E28D876BE00891639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4880426C28D876BE00891639 /* RotationTest */,
+				4880428728D876C000891639 /* RotationTestTests */,
+				4880429128D876C000891639 /* RotationTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4880426B28D876BE00891639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4880428028D876C000891639 /* LaunchScreen.storyboard in Resources */,
+				4880427D28D876C000891639 /* Assets.xcassets in Resources */,
+				4880427B28D876BE00891639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4880428628D876C000891639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4880429028D876C000891639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7588B6EC0B500B11790F5EAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RotationTest/Pods-RotationTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RotationTest/Pods-RotationTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RotationTest/Pods-RotationTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C90D0D280ABF2BF0EDD1E0F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RotationTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4880426928D876BE00891639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4880427828D876BE00891639 /* ViewController.m in Sources */,
+				4880427228D876BE00891639 /* AppDelegate.m in Sources */,
+				4880428328D876C000891639 /* main.m in Sources */,
+				4880427528D876BE00891639 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4880428428D876C000891639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4880428D28D876C000891639 /* RotationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4880428E28D876C000891639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4880429928D876C000891639 /* RotationTestUITestsLaunchTests.m in Sources */,
+				4880429728D876C000891639 /* RotationTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4880428A28D876C000891639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4880426C28D876BE00891639 /* RotationTest */;
+			targetProxy = 4880428928D876C000891639 /* PBXContainerItemProxy */;
+		};
+		4880429428D876C000891639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4880426C28D876BE00891639 /* RotationTest */;
+			targetProxy = 4880429328D876C000891639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4880427928D876BE00891639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4880427A28D876BE00891639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4880427E28D876C000891639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4880427F28D876C000891639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4880429A28D876C000891639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4880429B28D876C000891639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4880429D28D876C000891639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F36339EB2EC25783D643F88 /* Pods-RotationTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3XMD9D6A65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RotationTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RotationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Wildcard;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4880429E28D876C000891639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFE515CE2C08008EE02E290 /* Pods-RotationTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 3XMD9D6A65;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RotationTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RotationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Wildcard;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		488042A028D876C000891639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RotationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RotationTest";
+			};
+			name = Debug;
+		};
+		488042A128D876C000891639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RotationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RotationTest";
+			};
+			name = Release;
+		};
+		488042A328D876C000891639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RotationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotationTest;
+			};
+			name = Debug;
+		};
+		488042A428D876C000891639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.RotationTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotationTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4880426828D876BE00891639 /* Build configuration list for PBXProject "RotationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4880429A28D876C000891639 /* Debug */,
+				4880429B28D876C000891639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4880429C28D876C000891639 /* Build configuration list for PBXNativeTarget "RotationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4880429D28D876C000891639 /* Debug */,
+				4880429E28D876C000891639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4880429F28D876C000891639 /* Build configuration list for PBXNativeTarget "RotationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488042A028D876C000891639 /* Debug */,
+				488042A128D876C000891639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488042A228D876C000891639 /* Build configuration list for PBXNativeTarget "RotationTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488042A328D876C000891639 /* Debug */,
+				488042A428D876C000891639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4880426528D876BE00891639 /* Project object */;
+}

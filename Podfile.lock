@@ -1,0 +1,16 @@
+PODS:
+  - LEEAlert (1.6.1)
+
+DEPENDENCIES:
+  - LEEAlert
+
+SPEC REPOS:
+  trunk:
+    - LEEAlert
+
+SPEC CHECKSUMS:
+  LEEAlert: 6ada46f8c3697c355afa6deb1a7d40affc09e48c
+
+PODFILE CHECKSUM: 321ee324ade94238c98f8c750db5e596ef83b085
+
+COCOAPODS: 1.11.2
